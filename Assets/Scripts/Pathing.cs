@@ -4,8 +4,7 @@ using System.Collections.Generic;
 
 public class Pathing : RaycastController {
 
-
-
+	public victimCount counter;
 
 	Animator anim;
 	int dead = Animator.StringToHash("dead");
@@ -30,7 +29,7 @@ public class Pathing : RaycastController {
 	
 	public override void Start () {
 		base.Start ();
-		
+
 		globalWaypoints = new Vector3[localWaypoints.Length];
 		for (int i =0; i < localWaypoints.Length; i++) {
 			globalWaypoints[i] = localWaypoints[i] + transform.position;
@@ -55,7 +54,7 @@ public class Pathing : RaycastController {
 	IEnumerator OnTriggerEnter2D (Collider2D col){
 		
 		Debug.Log (gameObject.name + " has collided with " + col.gameObject.name);
-
+		counter.subtractCount (1); //if victim is "dead", then subtracts the victim counter by 1
 		anim.SetBool (dead, true);
 		yield return new WaitForSeconds (1);
 		Destroy (this.gameObject);
