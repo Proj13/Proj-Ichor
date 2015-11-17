@@ -15,31 +15,7 @@ Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngi
 Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.173 seconds
+- Completed reload, in  0.223 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\System.dll (this message is harmless)
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1754 -> priority: 1 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.673366 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 258.
-Total: 0.284466 ms (FindLiveObjects: 0.022717 ms CreateObjectMapping: 0.017120 ms MarkObjects: 0.235408 ms  DeleteObjects: 0.008560 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.978093 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 805.
-Total: 0.377312 ms (FindLiveObjects: 0.050703 ms CreateObjectMapping: 0.038192 ms MarkObjects: 0.278210 ms  DeleteObjects: 0.009877 ms)
-
-Gravity: -50  Jump Velocity: 20
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-paitent_sprite_2 (3) has collided with sackman
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
