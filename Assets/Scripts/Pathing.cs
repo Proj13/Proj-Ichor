@@ -4,10 +4,10 @@ using System.Collections.Generic;
 
 public class Pathing : RaycastController {
 
-	public victimCount counter;
+
 
 	Animator anim;
-	int dead = Animator.StringToHash("dead");
+
 	public LayerMask passengerMask;
 	bool facingRight = false;
 	
@@ -54,10 +54,11 @@ public class Pathing : RaycastController {
 	IEnumerator OnTriggerEnter2D (Collider2D col){
 		
 		Debug.Log (gameObject.name + " has collided with " + col.gameObject.name);
-		counter.subtractCount (1); //if victim is "dead", then subtracts the victim counter by 1
-		anim.SetBool (dead, true);
+		Destroy (this);
+
 		yield return new WaitForSeconds (1);
-		Destroy (this.gameObject);
+
+
 	}
 
 

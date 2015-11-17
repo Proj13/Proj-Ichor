@@ -5,7 +5,7 @@ using System.Collections;
 public class countDown_v002 : MonoBehaviour {
 	
 	Text timer;
-	float timeRemaining = 60.0f;
+	public float timeRemaining = 60.0f;
 	//public GUIStyle textStyle;
 
 	void Start(){

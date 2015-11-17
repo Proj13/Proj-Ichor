@@ -4,22 +4,20 @@ using System.Collections;
 public class victimCount : MonoBehaviour {
 
 	public GUIText countText;
-	private int count;
+	public int count;
 
-	void Start () {
-		count = GameObject.FindGameObjectsWithTag ("Victim").Length;
-		updateCount ();
+
+
+	void Update(){
+		count = updateCount (count);
+
 	}
 	
-	public void subtractCount (int newCountValue) {
-		count -= newCountValue;
-		if (count < 0) {
-			count = 0;
-		}
-		updateCount ();
-	}
 
-	void updateCount(){
+
+	int updateCount(int count){
+		count = GameObject.FindGameObjectsWithTag ("Victim").Length;
 		countText.text = "Victims Needed: " + count;
+		return count;
 	}
 }

@@ -6,44 +6,40 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     1993 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.214 seconds
+Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.173 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\jchti\Desktop\HackNSlash-GOOD\HackNSlashBuild_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 17c -> priority: 1 
+  Thread -> id: 1754 -> priority: 1 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.900127 ms
+UnloadTime: 3.673366 ms
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 256.
-Total: 0.379946 ms (FindLiveObjects: 0.025680 ms CreateObjectMapping: 0.014157 ms MarkObjects: 0.326938 ms  DeleteObjects: 0.012511 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 258.
+Total: 0.284466 ms (FindLiveObjects: 0.022717 ms CreateObjectMapping: 0.017120 ms MarkObjects: 0.235408 ms  DeleteObjects: 0.008560 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.931999 ms
+UnloadTime: 1.978093 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 415.
-Total: 0.336157 ms (FindLiveObjects: 0.033253 ms CreateObjectMapping: 0.027656 ms MarkObjects: 0.265699 ms  DeleteObjects: 0.009218 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 805.
+Total: 0.377312 ms (FindLiveObjects: 0.050703 ms CreateObjectMapping: 0.038192 ms MarkObjects: 0.278210 ms  DeleteObjects: 0.009877 ms)
 
 Gravity: -50  Jump Velocity: 20
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Victim has collided with sackman
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Victim has collided with sackman
+paitent_sprite_2 (3) has collided with sackman
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 

@@ -20,12 +20,12 @@ public class gameOverScript : MonoBehaviour {
 			gameOver.enabled = true;
 			exitToMenu.enabled = true;
 			//savedTimeScale = Time.timeScale;
-			//Time.timeScale = 0.0f;
+			Time.timeScale = 0.0f;
 		}
 	}
 	
 	public void goToMenu(){
 		//Time.timeScale = savedTimeScale;
-		Application.LoadLevel (1);
+		Application.LoadLevel ("startScreenMenu");
 	}
 }
