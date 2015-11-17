@@ -29,7 +29,7 @@ public class FinishLine : MonoBehaviour {
 
 		if (count == 0) {
 			Debug.Log(	"Player has won the game");
-			Application.LoadLevel("level2");
+			Application.LoadLevel(Application.loadedLevel+1);
 
 		}
 		else 
