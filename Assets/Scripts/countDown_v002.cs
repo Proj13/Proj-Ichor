@@ -5,14 +5,18 @@ using System.Collections;
 public class countDown_v002 : MonoBehaviour {
 	
 	Text timer;
-	public float timeRemaining = 60.0f;
+	float timeRemaining;
+
+	public TimeScript timescript;
 	//public GUIStyle textStyle;
 
 	void Start(){
 		timer = GetComponent<Text> ();
+
+
 	}
 	void Update () {
-		timeRemaining -= Time.deltaTime;
+		timeRemaining = timescript.timeLimit;
 	}
 	
 	void OnGUI(){

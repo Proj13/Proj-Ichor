@@ -4,9 +4,10 @@ using System.Collections;
 
 public class gameOverScript : MonoBehaviour {
 	
-	float timeRemaining = 60.0f;
+	float timeRemaining;
 	public Canvas gameOver;
 	public Button exitToMenu;
+	public TimeScript timescript;
 	//public float savedTimeScale;
 	
 	void Start(){
@@ -15,12 +16,12 @@ public class gameOverScript : MonoBehaviour {
 		gameOver.enabled = false;
 	}
 	void Update () {
-		timeRemaining -= Time.deltaTime;
+		timeRemaining = timescript.timeLimit;
 		if(timeRemaining < 0){
 			gameOver.enabled = true;
 			exitToMenu.enabled = true;
 			//savedTimeScale = Time.timeScale;
-			Time.timeScale = 0.0f;
+			//Time.timeScale = 0.0f;
 		}
 	}
 	

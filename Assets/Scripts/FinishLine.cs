@@ -3,7 +3,7 @@ using System.Collections;
 
 public class FinishLine : MonoBehaviour {
 	
-	public int count;
+	int count;
 
 
 
@@ -29,7 +29,7 @@ public class FinishLine : MonoBehaviour {
 
 		if (count == 0) {
 			Debug.Log(	"Player has won the game");
-			Application.LoadLevel("startScreenMenu");
+			Application.LoadLevel("level2");
 
 		}
 		else 

@@ -11,11 +11,15 @@ public class Player_anim : MonoBehaviour
 	int hideHash = Animator.StringToHash ("Hide");
 	bool facingRight = false;
 
+	public AudioClip impact;
+	AudioSource audio;
+
 	
 	
 	void Start ()
 	{
 		anim = GetComponent<Animator>();
+		audio = GetComponent<AudioSource>();
 	}
 	
 	
@@ -44,6 +48,7 @@ public class Player_anim : MonoBehaviour
 
 		if (Input.GetKeyDown (KeyCode.Space)) {
 			anim.SetBool (jumpHash, true);
+			audio.PlayOneShot(impact, 0.7F);
 		}
 		if (Input.GetKeyUp (KeyCode.Space)) {
 			anim.SetBool (jumpHash, false);
