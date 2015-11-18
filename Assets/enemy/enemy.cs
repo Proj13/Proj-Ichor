@@ -23,7 +23,7 @@ public class enemy : MonoBehaviour {
 	{
 		anim = GetComponent<Animator>();
 		audio = GetComponent<AudioSource>();
-		backgroundAudio = GameObject.Find("Slash Theme 2");
+		//backgroundAudio = GameObject.Find("Slash Theme 2");
 		gameOver = gameOver.GetComponent<Canvas> ();
 		exitToMenu = exitToMenu.GetComponent<Button> ();
 
@@ -37,12 +37,16 @@ public class enemy : MonoBehaviour {
 		
 		Debug.Log (gameObject.name + " has collided with " + col.gameObject.name);
 		anim.SetBool (dead, true);
+
 		backgroundAudio.GetComponent<AudioSource> ().Stop ();
+
 		audio.PlayOneShot(impact, 0.7F);
 		gameOver.enabled = true;
 		exitToMenu.enabled = true;
 
+
 		yield return new WaitForSeconds(5);
+
 
 
 

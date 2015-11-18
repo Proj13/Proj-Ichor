@@ -29,10 +29,15 @@ public class menuScript : MonoBehaviour {
 	}
 
 	public void StartLevel(){
-		Application.LoadLevel (Application.loadedLevel + 1);
+		Application.LoadLevel ("Tutorial");
 	}
 
 	public void ExitGame(){
 		Application.Quit ();
+	}
+
+	public void storyPress(){
+		quitMenu.enabled = false;
+		Application.LoadLevel ("story");
 	}
 }

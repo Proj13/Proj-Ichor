@@ -2,23 +2,25 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class gameOverScript : MonoBehaviour {
+public class gameWinScript : MonoBehaviour {
 	
 	float timeRemaining;
-	public Canvas gameOver;
+	public Canvas gameWin;
 	public Button exitToMenu;
-	public TimeScript timescript;
+	public victimCount countObject;
+	int count;	
 	//public float savedTimeScale;
 	
 	void Start(){
-		gameOver = gameOver.GetComponent<Canvas> ();
+		gameWin = gameWin.GetComponent<Canvas> ();
 		exitToMenu = exitToMenu.GetComponent<Button> ();
-		gameOver.enabled = false;
+		gameWin.enabled = false;
+		count = GameObject.FindGameObjectsWithTag ("Victim").Length;
 	}
 	void Update () {
-		timeRemaining = timescript.timeLimit;
-		if(timeRemaining < 0){
-			gameOver.enabled = true;
+		count = GameObject.FindGameObjectsWithTag ("Victim").Length;
+		if(count == 0){
+			gameWin.enabled = true;
 			exitToMenu.enabled = true;
 			//savedTimeScale = Time.timeScale;
 			//Time.timeScale = 0.0f;
