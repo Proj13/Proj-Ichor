@@ -15,17 +15,7 @@ Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngi
 Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.182 seconds
+- Completed reload, in  0.181 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\System.dll (this message is harmless)
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2790 -> priority: 1 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.618383 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 260.
-Total: 0.277552 ms (FindLiveObjects: 0.023047 ms CreateObjectMapping: 0.021730 ms MarkObjects: 0.223556 ms  DeleteObjects: 0.008889 ms)
-
