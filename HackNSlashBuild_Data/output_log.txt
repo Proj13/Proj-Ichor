@@ -15,7 +15,7 @@ Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngi
 Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\jchti\Desktop\Proj-Ichor\HackNSlashBuild_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.181 seconds
+- Completed reload, in  0.231 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.

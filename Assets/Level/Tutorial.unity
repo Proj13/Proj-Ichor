@@ -1189,14 +1189,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11467986, guid: bd2e4e271df597041b509a108a843b17, type: 2}
-      propertyPath: timescript
-      value: 
-      objectReference: {fileID: 1830665273}
-    - target: {fileID: 22338560, guid: bd2e4e271df597041b509a108a843b17, type: 2}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1967038682}
     - target: {fileID: 11494978, guid: bd2e4e271df597041b509a108a843b17, type: 2}
       propertyPath: gameOver
       value: 
@@ -1209,6 +1201,14 @@ Prefab:
       propertyPath: timescript
       value: 
       objectReference: {fileID: 1830665273}
+    - target: {fileID: 11467986, guid: bd2e4e271df597041b509a108a843b17, type: 2}
+      propertyPath: timescript
+      value: 
+      objectReference: {fileID: 1830665273}
+    - target: {fileID: 22338560, guid: bd2e4e271df597041b509a108a843b17, type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1967038682}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd2e4e271df597041b509a108a843b17, type: 2}
   m_IsPrefabParent: 0
